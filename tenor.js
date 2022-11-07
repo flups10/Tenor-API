@@ -1,7 +1,7 @@
 const input = document.getElementById('userInput')
 const searchBtn = document.getElementById('searchButton')
 const container = document.getElementById('container')
-const apiKey = 'AIzaSyBvvrgErFd5BcLfaDV5tqqjWSAvpXZ3QJE';
+const apiKey = 'Your Api Key';
 
 searchBtn.addEventListener('click', getGifs)
 
@@ -31,6 +31,3 @@ function handleData(data){
         container.appendChild(new_image)
     }
 }
-
-
-// "https://tenor.googleapis.com/v2/search?q=dogs&key=AIzaSyBvvrgErFd5BcLfaDV5tqqjWSAvpXZ3QJE&limit=8"
